@@ -129,14 +129,14 @@ section {
   color: var(--Cyan);
 }
 
-.footer{
+footer{
   display: flex;
   align-items: center;
   position: relative;
   padding-top: 25px;
 }
 
-.footer::before{
+footer::before{
   content: "";
   position: absolute;
   background-color: var(--line-color);
@@ -145,21 +145,21 @@ section {
   top: 0;
 }
 
-.footer p {
+footer p {
   color: var(--Soft-blue);
   font-size: 2rem;
   transform: translate(13px, -13px);
 }
 
 
-.footer span {
+footer span {
   color: var(--white-color);
 }
-.footer span:hover {
+footer span:hover {
   color: var(--Cyan);
 }
 
-.footer img {
+footer img {
   height: 62px;
   margin-right: 20px;
   border: 1px solid white;
