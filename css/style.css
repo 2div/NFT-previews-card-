@@ -113,22 +113,34 @@ section {
 .icon {
   display: flex;
   justify-content: space-between;
-  font-size: 1.7em;
+  font-size: 1.9em;
   letter-spacing: 2px;
   color: var(--Soft-blue);
   margin:40px 0;
 }
 
+.left , .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .icon .days{
   text-transform: lowercase;
 }
+
 .icon span {
   margin-left: 11px;
 }
 
-.icon .target{
+.icon .left{
   color: var(--Cyan);
 }
+
+.icon img {
+  height: 1.2em;
+}
+
 
 footer{
   display: flex;
