@@ -35,7 +35,7 @@ body {
 
   
 .box{
-  min-height: 300px;
+  min-width:600px;
   background-color: var(--card-color);
   padding: 45px 35px;
   border-radius: 26px;
@@ -44,8 +44,7 @@ body {
 }  
 
 .img-box{
-  width: 604px;
-  height: 604px;
+ 
   position: relative;
   transition: 0.5s ease;
   margin: 0;
@@ -54,8 +53,7 @@ body {
 img { 
   border-radius: 26px;
   max-width: 100%;
-  transition: 0.5s ease;
- 
+  transition: 0.5s ease; 
 }
 
 .img-box::before {
@@ -106,10 +104,6 @@ img {
   margin-bottom: 0;
 }
 
-section {
-  width: 617px;
-}
-
 .icon {
   display: flex;
   justify-content: space-between;
@@ -133,7 +127,7 @@ section {
   margin-left: 11px;
 }
 
-.icon .left{
+.left span{
   color: var(--Cyan);
 }
 
