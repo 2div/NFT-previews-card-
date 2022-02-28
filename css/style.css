@@ -35,7 +35,7 @@ body {
 
   
 .box{
-  min-width:600px;
+  width:600px;
   background-color: var(--card-color);
   padding: 45px 35px;
   border-radius: 26px;
