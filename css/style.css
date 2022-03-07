@@ -1,4 +1,4 @@
-/* Start Global Rules */
+ Start Global Rules
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -21,7 +21,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-size: 15px;
+  font-size: .7rem;
   font-family: "Outfit", sans-serif;
   background-color: var(--BG-color);
 }
@@ -29,25 +29,26 @@ body {
 
 .container {
   min-height: 100vh;
-  justify-content: center;
-  display: flex;
+  display: grid;
+  place-content: center;
+  
 }
 
   
 .box{
-  width:600px;
+  max-width: 503px;
   background-color: var(--card-color);
-  padding: 45px 35px;
+  padding: 2rem 1.5rem;
   border-radius: 26px;
-  margin: auto;
   position: relative;
+  box-shadow: rgb(0 0 0 / 56%) 0px 22px 70px 4px;
 }  
 
-.img-box{
- 
+.box .img-box{
   position: relative;
   transition: 0.5s ease;
   margin: 0;
+  width: 100%;
 }
 
 img { 
@@ -78,6 +79,7 @@ img {
 }
 
 .img-box:hover::before{
+
   z-index: 1;
 }
 .img-box:hover .view {
@@ -117,10 +119,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.icon .days{
-  text-transform: lowercase;
 }
 
 .icon span {
@@ -175,4 +173,6 @@ footer img {
 
 a {
   text-decoration: none;
-}
+} 
+
+ 
